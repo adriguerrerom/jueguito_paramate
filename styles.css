@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    color: #d63384;
+}
+
+button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#pantalla-juego, #mensaje-especial, #pantalla-elegir, #pantalla-carta {
+    display: none;
+}
+
+#teclado {
+    margin-top: 20px;
+}
+
+.letra {
+    background-color: white;
+    color: #d63384;
+    border: 2px solid #d63384;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.letra:disabled {
+    background-color: #d63384;
+    color: white;
+    cursor: not-allowed;
+}
+
+#pantalla-carta {
+    display: none;
+}
